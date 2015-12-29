@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="faf76f25-19c3-401b-bcec-4539419ea288" name="Default" comment="" />
+    <list default="true" id="faf76f25-19c3-401b-bcec-4539419ea288" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tree.sc" afterPath="$PROJECT_DIR$/src/Tree.sc" />
+    </list>
     <ignored path="LearningScala.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -65,8 +67,8 @@
       <file leaf-file-name="Tree.sc" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tree.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3181818">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.6212121">
+              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -138,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/SingletonObjects.sc" />
         <option value="$PROJECT_DIR$/src/AlgebraicDataTypes.sc" />
         <option value="$PROJECT_DIR$/src/Temp.sc" />
+        <option value="$PROJECT_DIR$/src/Tree.sc" />
       </list>
     </option>
   </component>
@@ -665,8 +668,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3181818">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.6212121">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
           <folding />
         </state>
       </provider>

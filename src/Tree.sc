@@ -20,3 +20,23 @@ object Tree {
 }
 
 Tree.traversInorder(aTree)
+
+
+//Binary Tree with OO
+
+abstract class oTree[T](){
+  def visit()
+}
+case class oLeaf[T](value:T) extends oTree[T]{
+  def visit() {println(value)}
+}
+case class oBranch[T](value:T, left:oTree[T], right:oTree[T]) extends oTree[T]{
+  def visit(): Unit = {
+    left.visit()
+    println(value)
+    right.visit()
+  }
+}
+
+val anOOTree:oTree[Int] = oBranch(1, oBranch(2, oLeaf(3), oLeaf(4)), oBranch(5, oLeaf(6), oLeaf(7)))
+anOOTree.visit()
