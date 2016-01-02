@@ -22,7 +22,6 @@ class Person(val name:String, var age:Int){
 }
 val peter = new Person("Peter", 23, 24)
 
-
 //inheritance
 abstract class Mammal(age:Int){
   def numberOfLegs:Int
@@ -37,7 +36,7 @@ class Human(name:String, age:Int) extends Mammal(age, println("superctor called"
 val raffi = new Human("raffi", 23)
 
 //private var with getter
-class Car(wheels:Int){
+class Car(private val wheels:Int){
   protected var _maxSpeed:Int = 0
   def this(wheels:Int, maxSpeed:Int){
     this(wheels)
